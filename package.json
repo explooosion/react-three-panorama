@@ -1,0 +1,88 @@
+{
+  "name": "react-three-panorama",
+  "homepage": "https://robby570.tw/react-three-panorama",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/explooosion/react-three-panorama.git"
+  },
+  "bugs": {
+    "url": "https://github.com/explooosion/react-three-panorama/issues"
+  },
+  "keywords": [
+    "react",
+    "threejs",
+    "panorama",
+    "three.js"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "stylelint src/**/**/**/**/**/**/*.js",
+    "lint:fix": "stylelint src/**/**/**/**/**/**/*.js --fix"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.1",
+    "add": "^2.0.6",
+    "axios": "^0.21.1",
+    "lodash": "^4.17.21",
+    "polished": "^4.1.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-html-parser": "^2.0.2",
+    "react-icons": "^4.2.0",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-use": "^17.1.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-saga": "^1.1.3",
+    "redux-thunk": "^2.3.0",
+    "stats.js": "^0.17.0",
+    "styled-components": "^5.2.1",
+    "three": "^0.130.0",
+    "three-orbitcontrols": "^2.110.3",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-compat": "^3.9.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "node-sass": "^5.0.0",
+    "stylelint": "^13.12.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-sass-guidelines": "^8.0.0",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.19.0"
+  }
+}
